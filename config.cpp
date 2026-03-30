@@ -28,6 +28,9 @@ class CfgMods
     {
         type = "mod";
         dir = "RF_VanillaPlusPlusMap_CL";
+        defines[] = {
+            "RF_VanillaPlusPlusMap_CL"
+        };
         class defs
         {
             class gameScriptModule
